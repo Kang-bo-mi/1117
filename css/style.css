@@ -31,6 +31,7 @@ html,body{font-family: '맑은고딕' sans-serif;color: #666;}
 
 .con1{background-color: aquamarine;display: flex;justify-content: space-evenly;height: 50px;align-items: center;}
 .con1>li{display: flex;justify-content: center;align-items: center;}
+.con1>li:hover{color: rgb(255, 255, 255);text-decoration:underline; cursor: pointer;}
 .con1>li>a>img{width: 50px;height: 50px;}
 
 .con2{height: 100px;background-color: #666;}
@@ -59,7 +60,7 @@ html,body{font-family: '맑은고딕' sans-serif;color: #666;}
 .copyright{text-align: center;font-size: 13px;}
 
 .popup{position: fixed;top: 0;left: 0;background-color: #fff;width: 1000px;height: 500px;margin: 50px;border: 3px solid #000;z-index: 10;}
-.popup>p:nth-child(1){font-weight: bold;font-size: 20px;text-align: center;}
+.popup>p:nth-child(1){font-weight: bold;font-size: 20px;text-align: center;margin: 30px;}
 .popup>p:nth-child(2){font-size: 13px;margin-top: 20px;text-align: center;}
 
-.close{background-color: chocolate;width: 50px;text-align: center;margin: 50px 450px;}
+.close{background-color: chocolate;width: 50px;text-align: center;margin: 150px 450px;cursor: pointer;}
